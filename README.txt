@@ -1,0 +1,1 @@
+This is a pomodoro timer. You can set a time and break. The time will be how long until the timer finishes, while break will be how long the break time is once the timer ends. It can be paused as well.

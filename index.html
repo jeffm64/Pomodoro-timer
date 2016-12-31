@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+  </head>
+  
+  <body class="site-container">
+    <div class="site-content">
+      <div class="timer">
+        <h1>pomodoro timer</h1>
+        
+        <div class="timer-parameters clearfix">
+          
+          <div class="reset-content">
+            <h3 class="reset-title">reset</h3>
+            <button class="reset btn"><img src="http://flaticons.net/gd/makefg.php?i=icons/Application/Command-Reset.png&r=255&g=255&b=255" alt="reset button"></button>
+          </div>
+          
+          <div class="break-content">
+            <h3 class="break-title">break</h3>
+            <button class="minus2 btn">-</button>
+            <span class="break-length">5</span>
+            <button class="plus2 btn">+</button>
+          </div>
+          
+          <div class="timer-content">
+            <h3 class="timer-title">length</h3>
+            <button class="minus btn">-</button>
+            <span class="timer-length">25</span>
+            <button class="plus btn">+</button>
+          </div>
+        </div>
+        
+        <div class="timer-countdown">
+          <h2>countdown</h2>
+          <button class="start-countdown" id="start-stop-cd">
+            <span class="start" id="start-stop">start</span>
+            <span class="countdown">25:00</span>
+          </button>
+          <div class="break-countdown">
+            <span class="break">break</span>
+            <span class="countdown-break">25:00</span>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

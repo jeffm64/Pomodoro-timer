@@ -1,0 +1,315 @@
+/*//////////////////////////////////////
+	UNIVERSAL
+//////////////////////////////////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight: normal;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: StripeFun, ChalkboardSE-Bold, "Comic Sans MS", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+img,
+video {
+	max-width: 100%;
+}
+
+input, button, select, submit {
+	border: none;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;	
+}
+
+
+
+/*//////////////////////////////////////
+	TEXT TRANSFORM
+//////////////////////////////////////*/
+
+/*Uppercase*/
+.site-container {
+  text-transform: uppercase;
+}
+
+/*Lowercase*/
+
+
+
+/*//////////////////////////////////////
+	LETTER SPACING
+//////////////////////////////////////*/
+
+
+
+/*//////////////////////////////////////
+	FONTS
+//////////////////////////////////////*/
+
+/*ChalkboardSE-Bold*/
+.timer-length,
+.break-length,
+.countdown,
+.countdown-break,
+.start,
+.stop,
+.break {
+  font-family: ChalkboardSE-Bold;
+}
+
+
+/*//////////////////////////////////////
+	COLORS
+//////////////////////////////////////*/
+
+/*GREEN*/
+.site-container {
+  background-color: #40993E;
+}
+
+.start {
+  color: #40D92B;
+}
+
+.start-countdown:hover {
+  border: solid 3px #40D92B;
+  border-radius: 8px;
+}
+
+/*BLACK*/
+.timer,
+.btn,
+.start-countdown {
+  background-color: #2B2B2A;
+}
+
+/*BLUE*/
+.timer-title {
+  color: #1485CC;
+}
+
+/*BROWN*/
+.timer {
+  border: solid 7px #9C5523;
+}
+
+/*ORANGE*/
+.break {
+  color: #E37A24;
+}
+
+/*PURPLE*/
+.break-title {
+  color: #B836D9;
+}
+
+/*RED*/
+.reset-title,
+.stop {
+  color: #BA1C15;
+}
+
+.stop-countdown:hover {
+  border: solid 3px #BA1C15;
+  border-radius: 8px;
+}
+
+/*WHITE*/
+.site-container,
+img,
+.btn,
+.countdown {
+  color: #F0EFEC;
+}
+
+.start-countdown {
+  border: solid 3px #F0EFEC;
+  border-radius: 8px;
+}
+
+/*YELLOW*/
+h2 {
+  color: #DBB51F;
+}
+
+
+
+
+/*//////////////////////////////////////
+	POMODORO TIMER
+//////////////////////////////////////*/
+
+.timer {
+  margin: 0 auto;
+  padding: 18px 0;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 37px;
+  padding-bottom: 20px;
+}
+
+/*//////////////////////////////////////
+	TIMER PARAMETERS
+//////////////////////////////////////*/
+
+.timer-parameters {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+h3,
+h2 {
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.timer-length,
+.break-length,
+.countdown,
+.countdown-break,
+.break,
+.btn {
+  font-size: 48px;
+}
+
+.start-countdown {
+  padding: 3px;
+  margin-top: 10px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.reset {
+  width: 50px;
+}
+
+img {
+  width: 80px;
+}
+
+.start,
+.stop {
+  margin: 0 auto;
+}
+
+/*//////////////////////////////////////
+////////////////////////////////////////
+	MEDIA QUERIES
+////////////////////////////////////////
+//////////////////////////////////////*/
+
+@media (min-width: 440px) {
+  
+  .timer-parameters {
+    max-width: 460px;
+  }
+
+  .timer-content,
+  .break-content {
+    width: 50%;
+  }
+  
+  .break-content {
+    float: left;
+  }
+  
+  .timer-content {
+    float: right;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  
+}
+
+@media (min-width: 768px) {
+  
+  .timer-parameters {
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  
+}
+
+@media (min-width: 1000px) {
+  
+  .site-content {
+    padding: 100px 0;
+  }
+  
+  .timer-parameters {
+    max-width: 650px;
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+  
+  h2 {
+    font-size: 67px;
+  }
+  
+  h3 {
+    font-size: 50px;
+  }
+  
+  .timer-length,
+  .break-length,
+  .countdown,
+  .countdown-break,
+  .btn,
+  .start,
+  .stop,
+  .break {
+    font-size: 54px;
+  }
+  
+  
+}
+
